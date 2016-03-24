@@ -1,0 +1,4 @@
+config interface 'main'
+        option name 'bond0'
+        #option mode '0'
+        #option enable '0'

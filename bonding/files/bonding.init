@@ -1,0 +1,13 @@
+#!/bin/sh /etc/rc.common
+# Copyright (C) 2006 OpenWrt.org
+
+START=50
+USE_PROCD=1
+
+start_service() {
+    lua /usr/sbin/bonding.lua
+}
+
+reload_service() {
+    lua /usr/sbin/bonding.lua
+}
